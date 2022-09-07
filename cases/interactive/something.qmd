@@ -4,8 +4,14 @@ format:
     html:
         toc: true
         code-fold: true
+        page-layout: full
 jupyter: python3
+server: shiny
 ---
+
+
+
+# TITLE
 
 ## Leaflet
 
@@ -115,4 +121,10 @@ filtered = data.filter(function(penguin) {
   return bill_length_min < penguin.bill_length_mm &&
          islands.includes(penguin.island);
 })
+```
+
+## R
+
+```{r}
+print("HELLO")
 ```
